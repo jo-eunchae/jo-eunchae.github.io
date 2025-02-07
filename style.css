@@ -1,0 +1,50 @@
+/* 자기소개 */
+h1 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+#txt_welcome {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+/* 포트폴리오 */
+.portfolio_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 0 40px;
+}
+.portfolio {
+    display: flex;
+    flex-direction: column; /* 자식 요소들 세로 배치 */
+    align-items: center; /* 가로로 중앙 정렬 */
+    justify-content: center; /* 세로로 중앙 정렬 */
+}
+
+.portfolio_img {
+    width: 80%;
+    height: auto;
+}
+.portfolio_title {
+    font-size: 25px;
+}
+.portfolio_btn {
+    display: inline-block;
+    padding: 10px 20px;
+
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+
+    background-color: black;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+.portfolio_btn:hover {
+    background-color: #555;
+}
+#comingSoon_btn {
+    background-color: gray;
+}

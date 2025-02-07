@@ -3,8 +3,38 @@
     <head>
         <meta charset="UTF-8">
         <title>joeunchae</title>
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body> 
-        <p>Hello, world!</p>
+        <!-- 자기소개개 -->
+        <h1>조은채의 포트폴리오</h1>
+        <div id="txt_welcome">
+            안녕하세요! 개발자 조은채입니다<br>
+            제 프로젝트를 소개합니다<br>
+        </div>
+
+        <div class="portfolio_container">
+            <!-- 테니스 마켓 -->
+            <div class="portfolio">
+                <img class="portfolio_img" src="./img/tennisMarket.jpg">
+                <p class="portfolio_title">Tennis Market</p>
+                <a class="portfolio_btn" href="./tennisMarket/index.html"
+                    title="Tennis Market으로 이동하기">자세히 보러가기</a>
+            </div>
+            <!-- 공연 예매 사이트 -->
+            <div class="portfolio">
+                <img class="portfolio_img" src="./img/ticketingSite.jpg">
+                <p class="portfolio_title">Ticketing Site</p>
+                <a class="portfolio_btn" href="./ticketingSite/index.html"
+                    title="Ticketing Site로 이동하기">자세히 보러가기</a>
+            </div>
+            <!-- 온라인 서점 -->
+            <div class="portfolio">
+                <img class="portfolio_img" src="./img/bookstore.jpg">
+                <p class="portfolio_title">Bookstore</p>
+                <a id="comingSoon_btn" class="portfolio_btn"
+                    title="아직 준비 중입니다">Coming Soon</a>
+            </div>
+        </div>
     </body>
 </html>
