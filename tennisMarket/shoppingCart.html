@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Shopping Cart</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="nav">
+            <div class="link_homePage">
+                <a href="./index.html">Tennis Market</a>
+            </div>
+            <div class="link_subPage">
+                <a href="./orderlist.html">order list</a>
+                <p>|</p>
+                <a href="./shoppingCart.html">shopping cart</a>
+            </div>
+        </div>
+
+        <div class="page_title">
+            <h1>Shopping Cart</h1>
+        </div>
+
+        <!-- 장바구니 내역 -->
+         <div class="shoppingCart_details">
+            <table>
+                <!-- 표 제목 -->
+                <thead>
+                    <th>No</th>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>price</th>
+                </thead>
+                <!-- 표 내용 -->
+                 <tbody>
+                    <th>1</th>
+                    <td>Blue Racket</td>
+                    <td>1</td>
+                    <td>350,000</td>
+                 </tbody>
+                 <tbody>
+                    <th>2</th>
+                    <td>Black Racket</td>
+                    <td>1</td>
+                    <td>500,000</td>
+                 </tbody>
+            </table>
+         </div>
+
+        <!-- 주문 -->
+         <div class="order">
+            <p class="txt_totalPrice"><strong>Total Price : 850,000</strong></p>
+            <input class="order_btn" type="button"
+                value="order"
+                onclick="alert('Your order has been placed successfully.')">
+         </div>
+    </body>
+</html>

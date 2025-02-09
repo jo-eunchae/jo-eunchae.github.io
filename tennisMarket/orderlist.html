@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Order List</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="nav">
+            <div class="link_homePage">
+                <a href="./index.html">Tennis Market</a>
+            </div>
+            <div class="link_subPage">
+                <a href="./orderlist.html">order list</a>
+                <p>|</p>
+                <a href="./shoppingCart.html">shopping cart</a>
+            </div>
+        </div>
+
+        <div class="page_title">
+            <h1>Order List</h1>
+        </div>
+
+        <!-- 주문 내역 -->
+         <div class="order_history">
+            <table>
+                <!-- 표 제목 -->
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Order Date</th>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Total Price</th>
+                    </tr>
+                </thead>
+                <!-- 표 내용 -->
+                <tbody>
+                    <tr>
+                        <th rowspan="2">1</th>
+                        <td rowspan="2">2025.01.05</td>
+                        <td>Red Racket</td>
+                        <td>2</td>
+                        <td rowspan="2">1,100,000</td>
+                    </tr>
+                    <tr>
+                        <!-- <th>1</th> -->
+                         <!-- <td>2025.01.05</td> -->
+                        <td>Black Racket</td>
+                        <td>1</td>
+                        <!-- <td>1,100,000</td> -->
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td>2025.01.31</td>
+                        <td>Blue Racket</td>
+                        <td>3</td>
+                        <td>700,000</td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td>2025.02.07</td>
+                        <td>Red Racket</td>
+                        <td>1</td>
+                        <td>30,000</td>
+                    </tr>
+                </tbody>
+            </table>
+         </div>
+    </body>
+</html>

@@ -1,3 +1,112 @@
-h1 {
+.nav {
+    display: flex;
+    justify-content: space-between; /* 자식 요소 양쪽 끝으로 배치*/
+    align-items: center; /* 세로 중앙 정렬 */
+    padding: 15px 30px;
     text-align: center;
+    background-color: black;
+}
+
+.nav a, .nav p {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.link_homePage {
+    font-size: 20px;
+}
+.link_subPage {
+    display: flex;
+}
+
+/* --- main --- */
+.page_title {
+    margin: 50px 0px 30px;
+    text-align: center;
+}
+
+/* index.html */
+.tennisRacket_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 0 40px;
+}
+
+.tennisRacket {
+    display: flex;
+    flex-direction: column; /* 자식 요소들 세로 배치 */
+    align-items: center; /* 세로 중앙 정렬 */
+    justify-content: center; /* 가로 중앙 정렬 */
+}
+.tennisRacket_img {
+    width: 50%;
+    height: auto;
+}
+.tennisRacket_title {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.tennisRacket_description, .tennisRacket_price {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: rgb(87, 87, 87);
+}
+.tennisRacket_btn {
+    width: 200px;
+    height: 35px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+.tennisRacket_btn:hover {
+    background-color: #555;
+}
+
+/* shoppingCart.html, orderlist.html */
+table {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse; /* 이중선 제거*/
+}
+thead {
+    background-color: lightgray;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/* shoppingCart.html */
+.order {
+    display: flex;
+    justify-content: space-between; /* 자식 요소 양쪽 끝으로 배치*/
+    align-items: center; /* 세로 중앙 정렬 */
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+
+    background-color: rgb(240, 240, 240);
+}
+.txt_totalPrice {
+    margin-left: 20px;
+    font-size: 20px;
+}
+.order_btn {
+    width: 100px;
+    height: 35px;
+    margin-right: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+.order_btn:hover {
+    background-color: #555;
 }

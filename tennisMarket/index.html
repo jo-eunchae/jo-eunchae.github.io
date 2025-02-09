@@ -6,6 +6,57 @@
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <h1>Tennis Market</h1>
+        <div class="nav">
+            <div class="link_homePage">
+                <a href="./index.html">Tennis Market</a>
+            </div>
+            <div class="link_subPage">
+                <a href="./orderlist.html">order list</a>
+                <p>|</p>
+                <a href="./shoppingCart.html">shopping cart</a>
+            </div>
+        </div>
+
+        <div class="page_title">
+            <h1>Tennis Market</h1>
+            <p>
+                Welcome to Tennis market!<br>
+                Enjoy your shopping.
+            </p>  
+        </div>
+
+        <!-- 테니스 라켓 -->
+         <div class="tennisRacket_container">
+            <!-- Red Racket -->
+            <div class="tennisRacket">
+                <img class="tennisRacket_img" src="./img/redRacket.png">
+                <p class="tennisRacket_title">Red Racket</p>
+                <p class="tennisRacket_description">Hot Red!</p>
+                <p class="tennisRacket_price">\ 300,000</p>
+                <input class="tennisRacket_btn" type="button"
+                    value="add to shopping cart"
+                    onclick="alert('Red Racket has been added to your cart.')">
+            </div>
+            <!-- Blue Racket -->
+            <div class="tennisRacket">
+                <img class="tennisRacket_img" src="./img/blueRacket.png">
+                <p class="tennisRacket_title">Blue Racket</p>
+                <p class="tennisRacket_description">Cool Red!</p>
+                <p class="tennisRacket_price">\ 350,000</p>
+                <input class="tennisRacket_btn" type="button"
+                    value="add to shopping cart"
+                    onclick="alert('Blue Racket has been added to your cart.')">
+            </div>
+            <!-- Black Racket -->
+            <div class="tennisRacket">
+                <img class="tennisRacket_img" src="./img/blackRacket.png">
+                <p class="tennisRacket_title">Black Racket</p>
+                <p class="tennisRacket_description">Chic Red!</p>
+                <p class="tennisRacket_price">\ 500,000</p>
+                <input class="tennisRacket_btn" type="button"
+                    value="add to shopping cart"
+                    onclick="alert('Black Racket has been added to your cart.')">
+            </div>
+         </div>
     </body>
 </html>
